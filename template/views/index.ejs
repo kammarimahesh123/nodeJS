@@ -1,0 +1,31 @@
+
+<!Doctype html>
+
+<html>
+  <head>  <title>Template file</title>
+  <style>
+    body {background-color: aliceblue}
+
+    h2 {background-color: brown;}
+    h1 {background-color: chartreuse;}
+      
+    li{background-color: darkgoldenrod;}
+  </style></head>
+
+<body>
+        <h2>Hobbies of <%=user.name %> are :</h2>
+        <ul>
+        <% user.hobbies.forEach(item=>{ %>
+        </ul>
+        <li><%=item%> </li>
+
+        
+        <%});%>
+
+        <h1>Playing with Kannaya</h1>
+
+
+</body>
+
+
+</html>
